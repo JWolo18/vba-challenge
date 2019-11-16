@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+import csv
+with open('/Users/jacquelinewolosonovich/Downloads/data.csv','rt')as f:
+  data = csv.reader(f)
+  for row in data:
+        print(row)
